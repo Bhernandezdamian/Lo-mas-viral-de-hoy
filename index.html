@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo mas viral de hoy</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos para la galería */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        .image-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px;
+            margin: 0;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media only screen and (max-width: 600px) {
+            .gallery {
+                grid-template-columns: 1fr; /* Cambiamos a una sola columna */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="image-container">
+            <a href="video1.html">
+                <img src="imagen1.png" alt="Imagen 1">
+                <p class="image-title">Escándalo en Vivo! Capturando a mi Esposa en Plena Infidelidad</p>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="video2.html">
+                <img src="imagen2.png" alt="Imagen 2">
+                <p class="image-title">Traición al Descubierto: Mi Esposa Pillada en Flagrante Delito</p>
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="video3.html">
+                <img src="imagen3.png" alt="Imagen 3">
+                <p class="image-title">El Momento de la Verdad: Sorprendiendo a mi Esposa en Pleno Acto de Engaño</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="video4.html">
+                <img src="imagen4.png" alt="Imagen 4">
+                <p class="image-title">Infidelidad al Rojo Vivo: La Impactante Revelación de una Esposa Desleal</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="video5.html">
+                <img src="imagen5.png" alt="Imagen 5">
+                <p class="image-title">El Shock del Engaño! Mi Esposa Descubierta en el Acto de Traición 🎪</p>
+            </a>
+        </div>
+
+        <div class="image-container">
+            <a href="video6.html">
+                <img src="imagen6.png" alt="Imagen 6">
+                <p class="image-title">Desenmascarando la Infidelidad: El Impactante Video de mi Esposa en Plena Traición</p>
+            </a>
+        </div>
+        <!-- Agrega más imágenes aquí según sea necesario -->
+    </div>
+</body>
+</html>
